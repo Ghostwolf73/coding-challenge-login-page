@@ -1,0 +1,58 @@
+*{
+    text-align: center;
+    font-family: 'Dekko';
+}
+h1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 80px;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+#main_form{
+    margin: auto;
+    width: 20%;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+#name{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+#password{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+#submit{
+    margin-bottom: 15px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: transparent;
+    color: white;
+}
+
+h2{
+    color: white;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 30px;
+}
