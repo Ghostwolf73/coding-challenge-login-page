@@ -1,0 +1,22 @@
+*{
+    text-align: center;
+    font-family: 'Dekko';
+    color: white;
+}
+h1{
+    color: white;
+    font-size: 80px;
+    margin: auto;
+    padding: auto;
+}
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
